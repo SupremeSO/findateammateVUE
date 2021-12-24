@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'simplifica';
+    src: url('simplifica.woff2') format('woff2'),
+         url('simplifica.woff') format('woff'),
+         url('simplifica.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+  }
+  
+  #nav a {
+    font-weight: bold;
+    color: #2c3e50;
+    font-family: simplifica;
+    font-size: 40px;
+    text-decoration: none;
+  }
